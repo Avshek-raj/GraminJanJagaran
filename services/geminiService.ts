@@ -8,7 +8,7 @@ export const generateProgramDescription = async (title: string, category: string
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Generate a compelling, inspiring, and professional description for an NGO program titled "${title}" in the "${category}" category. Keep it under 100 words. Focus on community impact.`,
+      contents: `Generate an inspiring and professional description for an NGO program titled "${title}" in the "${category}" sector for our Nepali NGO "Gramin Jan Jagaran". Focus on the unique challenges and opportunities in Nepal (e.g., remote terrain, digital divide, community spirit). Keep it under 75 words.`,
     });
     return response.text || "Failed to generate description.";
   } catch (error) {
@@ -22,12 +22,12 @@ export const generateThankYouNote = async (donorName: string, amount: number, pr
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Write a heartfelt, personalized thank you letter from EcoHeart NGO to ${donorName} for their generous donation of $${amount} towards the "${programTitle}" program. Mention how this specific contribution will change lives.`,
+      contents: `Write a heartfelt thank you letter from "Gramin Jan Jagaran" (a Nepali NGO) to ${donorName} for their donation of $${amount} to support "${programTitle}". Mention how their contribution helps build a more equitable Nepal.`,
     });
-    return response.text || "Thank you for your incredible support!";
+    return response.text || "Thank you for your incredible support for Nepal!";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "Thank you for your contribution! You are making a real difference.";
+    return "Dhanyabaad! Your contribution is making a real difference in the lives of rural Nepalis.";
   }
 };
 
@@ -36,11 +36,11 @@ export const generateImpactReport = async (program: any): Promise<string> => {
   try {
     const response = await ai.models.generateContent({
       model: "gemini-3-flash-preview",
-      contents: `Generate a short impact summary for the program "${program.title}". Context: it has raised $${program.currentAmount} of $${program.goalAmount}. Highlight the momentum and the urgency of reaching the goal.`,
+      contents: `Generate a concise impact summary for the Nepali NGO "Gramin Jan Jagaran" program "${program.title}". Highlight the sustainable benefits for local communities in Nepal.`,
     });
-    return response.text || "Our impact is growing every day thanks to you.";
+    return response.text || "Our impact across Nepal is growing every day thanks to you.";
   } catch (error) {
     console.error("Gemini Error:", error);
-    return "Progress is being made. Join us to reach our goal.";
+    return "Progress is being made. Join us to empower the heart of Nepal.";
   }
 };
