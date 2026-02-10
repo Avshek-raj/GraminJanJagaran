@@ -92,6 +92,24 @@ const LandingPage: React.FC<LandingPageProps> = ({ setView, programs }) => {
         </div>
       </section>
 
+      {/* Legacy Impact Section */}
+      <section className="py-24 bg-slate-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+           <div className="text-center mb-16">
+            <div className="text-emerald-600 font-black text-xs uppercase tracking-[0.2em] mb-2">Our Footprint</div>
+            <h2 className="text-4xl font-black text-slate-900 mb-4 tracking-tight">Our Legacy of Impact</h2>
+            <p className="text-slate-500 max-w-2xl mx-auto text-lg">
+              Highlighting some of the significant missions we have completed over the years.
+            </p>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+            {completedPrograms.map((program) => (
+              <ProgramCard key={program.id} program={program} onClick={() => {}} />
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Nepal Specific Stats */}
       <section className="py-20 bg-slate-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
