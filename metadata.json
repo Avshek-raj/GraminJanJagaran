@@ -1,0 +1,7 @@
+{
+  "name": "EcoHeart NGO Portal",
+  "description": "A comprehensive platform for non-profits to manage programs, showcase team members, and drive community impact through AI-enhanced donation storytelling.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
