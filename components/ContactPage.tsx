@@ -22,7 +22,7 @@ const ContactPage: React.FC = () => {
     { 
       icon: 'fa-envelope', 
       title: 'Email Us', 
-      detail: 'info@graminjanjagaran.org.np', 
+      detail: 'info@graminjanjagarankendra.org.np', 
       color: 'bg-emerald-100 text-emerald-600' 
     },
     { 
@@ -43,7 +43,7 @@ const ContactPage: React.FC = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 animate-fade-in">
       <div className="text-center mb-16">
         <div className="inline-block px-4 py-1.5 mb-4 rounded-full bg-emerald-50 text-emerald-600 font-black text-[10px] uppercase tracking-widest border border-emerald-100">
-          Connect with Gramin Jan Jagaran
+          Connect with Gramin Jan Jagaran Kendra
         </div>
         <h1 className="text-5xl font-black text-slate-900 mb-6 tracking-tight leading-tight">
           Let's Build a <span className="text-emerald-600">Better Nepal</span> Together
@@ -105,7 +105,7 @@ const ContactPage: React.FC = () => {
               </div>
               <h2 className="text-3xl font-black text-slate-900">Dhanyabaad!</h2>
               <p className="text-slate-500 max-w-sm mx-auto text-lg leading-relaxed">
-                Thank you for reaching out. A representative from Gramin Jan Jagaran will contact you within 48 hours.
+                Thank you for reaching out. A representative from Gramin Jan Jagaran Kendra will contact you within 48 hours.
               </p>
               <button 
                 onClick={() => setSubmitted(false)}
@@ -128,7 +128,7 @@ const ContactPage: React.FC = () => {
               </div>
               <div className="space-y-2">
                 <label className="text-[10px] font-black uppercase tracking-widest text-slate-400">Message / Proposal</label>
-                <textarea required rows={6} value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} placeholder="Tell us how you'd like to support Gramin Jan Jagaran..." className="w-full px-6 py-4 rounded-3xl bg-slate-50 border-2 border-slate-50 focus:border-emerald-500 focus:bg-white outline-none transition-all resize-none"></textarea>
+                <textarea required rows={6} value={formData.message} onChange={(e) => setFormData({...formData, message: e.target.value})} placeholder="Tell us how you'd like to support Gramin Jan Jagaran Kendra..." className="w-full px-6 py-4 rounded-3xl bg-slate-50 border-2 border-slate-50 focus:border-emerald-500 focus:bg-white outline-none transition-all resize-none"></textarea>
               </div>
               <button type="submit" className="w-full py-5 bg-emerald-600 text-white rounded-2xl font-black uppercase tracking-widest shadow-xl hover:bg-emerald-700 transition-all">
                 Send to Team Nepal

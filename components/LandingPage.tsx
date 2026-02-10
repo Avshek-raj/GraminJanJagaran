@@ -20,7 +20,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ setView, programs }) => {
           <img 
             src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?auto=format&fit=crop&q=80&w=1920" 
             className="w-full h-full object-cover brightness-[0.4]"
-            alt="Gramin Jan Jagaran - Empowering Nepal"
+            alt="Gramin Jan Jagaran Kendra - Empowering Nepal"
           />
         </div>
         <div className="relative z-10 max-w-5xl mx-auto text-center px-4">
@@ -28,7 +28,7 @@ const LandingPage: React.FC<LandingPageProps> = ({ setView, programs }) => {
             Serving the Heart of Nepal
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-8 leading-tight tracking-tight">
-            Gramin Jan Jagaran: <br /><span className="text-emerald-400">Rural Awareness</span> & Growth.
+            Gramin Jan Jagaran Kendra: <br /><span className="text-emerald-400">Rural Awareness</span> & Growth.
           </h1>
           <p className="text-xl text-slate-200 mb-12 max-w-3xl mx-auto leading-relaxed font-medium">
             A Nepali non-profit dedicated to transforming lives through innovative IT training, accessible healthcare, and grassroots community empowerment.

@@ -9,10 +9,10 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center text-white mb-6">
               <i className="fas fa-hands-holding text-2xl text-emerald-500 mr-3"></i>
-              <span className="text-2xl font-black tracking-tight">Gramin Jan Jagaran</span>
+              <span className="text-2xl font-black tracking-tight">Gramin Jan Jagaran Kendra</span>
             </div>
             <p className="max-w-md text-slate-500 mb-6 leading-relaxed">
-              Gramin Jan Jagaran is a registered Nepali non-governmental organization working towards a self-reliant and aware society in rural Nepal.
+              Gramin Jan Jagaran Kendra is a registered Nepali non-governmental organization working towards a self-reliant and aware society in rural Nepal.
             </p>
             <div className="flex space-x-4">
               {['facebook', 'twitter', 'linkedin'].map(social => (
@@ -44,7 +44,7 @@ const Footer: React.FC = () => {
         </div>
         
         <div className="pt-8 border-t border-slate-800 text-[10px] font-bold uppercase tracking-widest flex flex-col md:flex-row justify-between items-center">
-          <p>&copy; {new Date().getFullYear()} Gramin Jan Jagaran (Nepal). All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Gramin Jan Jagaran Kendra (Nepal). All Rights Reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-white">Registration</a>
             <a href="#" className="hover:text-white">Terms</a>

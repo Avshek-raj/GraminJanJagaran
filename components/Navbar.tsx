@@ -29,7 +29,7 @@ const Navbar: React.FC<NavbarProps> = ({ currentView, setView }) => {
             </div>
             <div className="flex flex-col leading-tight">
               <span className="text-xl font-black bg-clip-text text-transparent bg-gradient-to-r from-emerald-600 to-teal-600">
-                Gramin Jan Jagaran
+                Gramin Jan Jagaran Kendra
               </span>
               <span className="text-[9px] uppercase tracking-widest font-bold text-slate-400">Health • Education • Skill Development</span>
             </div>
